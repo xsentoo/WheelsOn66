@@ -1,0 +1,88 @@
+.home {
+    padding: 20px;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .route66-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;  /* Ajouté pour que les cartes s'ajustent */
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* MOBILE STYLES (when screen width is less than or equal to 768px) */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;  /* Réduire la taille du titre */
+    }
+  
+    .hero-section p {
+      font-size: 1.2rem;  /* Réduire la taille du texte */
+    }
+  
+    .features {
+      flex-direction: column;  /* Les cartes s'empilent verticalement */
+      align-items: center;
+    }
+  
+    .feature-card {
+      width: 80%;  /* Cartes prennent 80% de la largeur sur mobile */
+      margin-bottom: 20px;  /* Ajout d'un espacement entre les cartes */
+    }
+  
+    .feature-card h3 {
+      font-size: 1.2rem;  /* Réduire la taille du titre dans la carte */
+    }
+  
+    .feature-card p {
+      font-size: 0.9rem;  /* Réduire la taille du texte dans la carte */
+    }
+  
+    /* Taille de l'image et du texte dans les autres sections (si nécessaire) */
+    .route66-image {
+      max-height: 350px;  /* Image plus petite sur mobile */
+    }
+  }
+  
