@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // Importer Link de react-router-dom
 import './Navbar.css';
 import logo_light from '../../assets/logo-black.png';
 import logo_dark from '../../assets/logo-white.png';
@@ -39,8 +39,12 @@ const Navbar = ({ theme, setTheme }) => {
 
       {/* Navbar Links */}
       <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-        <li>Home</li>
-        <li>Plan Your Trip</li>
+        <li>
+          <Link to="/">Home</Link> {/* Lien vers la page d'accueil */}
+        </li>
+        <li>
+          <Link to="/plan-your-trip">Plan Your Trip</Link> {/* Lien vers Plan Your Trip */}
+        </li>
         <li>Route Map</li>
         <li>Community</li>
         <li>Gallery</li>

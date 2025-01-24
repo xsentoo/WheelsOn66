@@ -1,0 +1,47 @@
+.plan {
+    padding: 20px;
+  }
+  
+  .plan h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .plan select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .plan form {
+    margin-top: 20px;
+  }
+  
+  .plan form div {
+    margin-bottom: 15px;
+  }
+  
+  .plan input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .plan h2 {
+    margin-top: 30px;
+  }
+  
+  .plan h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .plan label {
+    font-weight: bold;
+  }
+  
